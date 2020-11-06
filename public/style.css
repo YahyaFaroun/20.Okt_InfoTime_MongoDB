@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#center-clock{
+    width: 22%;
+    display: block;
+    margin: 3vh 39.5% -4vh;
+}
+#center-text{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: #314259;
+}
+#center-p{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #B1BDC6;
+    margin-top: 2vh;
+}
+.bold{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+#hero{
+    background: url("/img/Frame.png") bottom/100% 60% no-repeat;
+    height: calc(100vh - 40px) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.grow{
+    flex-grow: 1;
+}
+.but{
+    width: 290px;
+    height: 8vh;
+    background: #FFFFFF;
+    box-shadow: 10px 12px 19px rgba(255, 96, 96, 0.2);
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;   
+    color: #4A4A4A;
+}
+.but1{
+    width: 290px;
+    height: 8vh;
+    background: #000000;
+    box-shadow: 10px 12px 23px rgba(255, 96, 96, 0.3);
+    border-radius: 30px;
+    margin-top: 2vh;
+    opacity: 0.1;
+}
+.but2{
+    margin-bottom: 10vh;
+}
+.logIn{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    top: -44px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif; 
+    font-weight: bold;
+    color: white;
+}
+.fragen{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 3vh 0 0;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.goo{
+    padding-left: 3%;
+}
+.goo1{
+    padding-left: 13%;
+}
+
+@media only screen and (max-width: 575px){
+    #center-clock{
+        display: block;
+        width: 70%;
+        margin: 1.5vh auto 0;
+    }
+    #center-text{
+        margin: -7vh 0 -1vh;
+    }
+    .logIn{
+        top: -41px;
+    }
+    .fragen{
+        display: block;
+        margin-bottom: -2vh;
+        font-size: 1em;
+    }
+}
+
+#icon{
+    display: block;
+    margin: 15vh auto 5vh;
+}
+#userThanks{
+    text-align: center;
+}
+#welcomeH{
+    font-family: 'Lato', sans-serif;
+    color: #414B6B;
+    text-align: center;
+}
+#userThanks #welcomeH{
+    margin-bottom: 50px;
+}
+#welcomeP{
+    font-family: 'Lato', sans-serif;
+    color: #90A4B7;
+    text-align: center; 
+    padding-top: 7vh;
+}
+#userThanks #welcomeP{
+    display: inline-block;
+    width: 80vw;
+    text-align: center;
+}
+.welcomeA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10vh auto;
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(225deg, #FE979C 0%, #FFA993 100%);
+    box-shadow: 0px 4px 18px rgba(254, 151, 156, 0.182292);
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1.3em;
+}
+#faq{
+    color:#FE979C ;
+}
+#aFragen{
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #B1BFCC;
+    margin-top: 25vh;
+}
+@media only screen and (max-width: 375px){
+    #welcomeH{
+        font-size: 1.4em;
+        width: 60%;
+        margin: 0 auto;
+    }
+    #welcomeP{
+        width: 80%;
+        text-align: left;
+        color: #90A4B7;
+        margin: 0 auto;
+    }
+    .welcomeA{
+        margin: 9vh auto;
+        width: 58%;
+    }
+    #aFragen{
+        margin-top: 20vh;
+    }
+}
+@media only screen and (max-width: 320px){
+    #welcomeH{
+        font-size: 1.4em;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #aFragen{
+        margin-top: 12vh;
+    }
+}
+
+
+
+
+
+/*Yahya*/
+
+/*FAQS*/
+        .faq_question {
+            margin: 0px;
+            padding: 0px 0px 5px 0px;
+            display: inline-block;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .faq_answer_container {
+            height: 0px;
+            overflow: hidden;
+            padding: 0px;
+        }

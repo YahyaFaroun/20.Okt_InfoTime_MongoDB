@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.bodyCompany{
+    height: 100vh;
+}
+.h1{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #414B6B;
+    margin-bottom: 10px;
+}
+.h3{
+    color: #90A4B7;
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 25px;
+}
+.show{
+    display: inline;
+}
+.hide{
+    display: none;
+}
+
+
+
+.header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    align-items: center;
+}
+.header a:nth-of-type(1){
+    height: 15%;
+}
+.header a:nth-of-type(1) img{
+    height: 100%;
+}
+.header img:nth-of-type(1){
+    height: 60%;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 10px 30px 40px rgba(94, 0, 0, 0.12);
+    transform: translateY(30%);
+    margin-left: 15px;
+}
+.header img:nth-of-type(2){
+    height: 60%;
+    border-radius: 50%;
+}
+
+
+/*Header User Profile*/
+#header{
+    position: relative;
+}
+#showUserProfile{
+    position: absolute;
+    top: 84px;
+    right: 5px;
+    background: #fff;
+    box-shadow: 0px 1px 23px rgba(0, 0, 0, 0.3);
+    padding:10px;
+    border-radius: 10px;
+}
+#showUserProfile ul{
+    list-style: none;
+}
+#showUserProfile ul .profilename{
+    border-bottom: 3px solid #F9F9F9;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+#showUserProfile ul li{
+    padding: 0 10px;
+}
+#showUserProfile ul a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+
+.mainInput{
+    display: grid;
+    grid-template-rows: 25vh 60vh;
+}
+
+
+/*All Company Inputs*/
+.companyText{
+    margin: 3vh 10%;
+    height: 100%;
+}
+.companyInput{
+    background-color: #F9F9F9;
+    padding: 0 5%;
+    position: relative;
+    height: 100%;
+}
+.inputTitels{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 15px;
+}
+.inputTitels p:last-of-type{
+    color: #FB818B;
+}
+.inputTextField{
+    background-color: white;
+    width: 97%;
+    padding: 20px 0 20px;
+     padding: 20px 0 20px 3%;
+    border: none;
+    border-radius: 2%;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 18px rgba(144, 164, 183, 0.22);
+    border-radius: 4px;
+}
+::placeholder{
+    color: #93A6B9;
+    padding-left: 20px;
+    padding-left: 0;
+}
+
+
+
+
+.inputField input{
+    margin: 20px 0 15px;
+    border-color: #93A6B9;
+    
+}
+.inputField label{
+    font-size: 1.4em;
+    color: #93A6B9;
+    padding-left: 10px;
+}
+.weiterButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+
+    height: 8vh;
+    width: 100%;
+  
+    margin-left: -5%;
+    color: white;
+    background: linear-gradient(225deg, #FE979C 0%, #FFA993 100%);
+    box-shadow: 0px -4px 18px rgba(84, 171, 255, 0.148353);
+    border: none;  
+}
+.weiterButton input{
+    color: white;
+    background: linear-gradient(225deg, #FE979C 0%, #FFA993 100%);
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: 1.6em;
+}
+.marginAbstand{
+    display: block;
+    margin: 0 0 200px;
+}
+
+
+/*Input04*/
+.companyInput04{
+    background-color: #F9F9F9;
+    padding: 0 5%;
+    position: relative;
+    min-height: 60vh;
+}
+/*Dashboard/Settings*/
+.mainWaves{
+    display: grid;
+    grid-template-rows: 15vh 55vh;
+}
+.settingField{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+    background-color: #F9F9F9;
+}
+.settingLinks{
+    background-color: white;
+    width: 100%;
+    padding: 20px 0 20px;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 18px rgba(144, 164, 183, 0.22);
+    border-radius: 4px;
+    color: #93A6B9;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.settingLinks a{
+    text-decoration: none;
+    color: #93A6B9;
+}
+.settingLinks span{
+    padding-left: 5%;
+}
+.footerWaves img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+/* Main Scroll Down*/
+.mainScrollDown{
+    display: grid;
+    grid-template-rows: 15vh auto;
+}
+
+/*QR Codes*/
+.qrField{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 5%;
+    background: url('/Bilder/BgUser.png') center bottom -150px/contain no-repeat,
+                linear-gradient(#F9F9F9 0%, #F9F9F9 100%);
+    gap: 20px;
+    padding-bottom: 30vh;
+}
+.qrField img{
+    object-fit: cover;
+    height: 114px;
+}
+.gutenAppetit{
+    text-align: center;
+    color: #FB818B;
+}
+
+/* Dashboard*/
+.dashboardField{
+    min-height: 40vh;
+    background: url('/Bilder/BgUser.png') center bottom -150px/contain no-repeat,
+                    linear-gradient(#F9F9F9 0%, #F9F9F9 100%);
+    padding-bottom: 22vh;
+}
+.dashboardField div{
+    padding: 15px;
+    background-color: white;
+    margin: 10px auto;
+}
+.dashboardField p{
+    color: #93A6B9
+}
+
+        
+/*FAQ*/
+.faqField{
+    min-height: 70vh;
+    background: url('/Bilder/BgUser.png') center bottom -150px/contain no-repeat,
+                linear-gradient(#F9F9F9 0%, #F9F9F9 100%);
+    padding: 0 5% 32vh;
+}
+.faq div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    
+}
+.faqField p{
+    padding: 10px;
+}
+
+.faqBody{
+    overflow-y: scroll;
+}
+@media only screen and (min-width: 500px){
+    .dashboardField, .faqField{
+        background-size: 100%;
+        background-position: center bottom -55vw;
+    }
+}
+
+/*Input 01*/
+.companyInput01LogoUpload{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+/*Input 04*/
+.mainInput04{
+    display: grid;
+    grid-template-rows: 25vh auto;
+
+}
+
+
+.input04{
+    background-color: white;
+    width: 100%;
+    padding: 20px 0 20px;
+    padding: 20px 0 20px 3%;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 18px rgba(144, 164, 183, 0.22);
+    border-radius: 4px;
+    color: #93A6B9;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.input04::placeholder{
+    color: rgba(147, 166, 185, 0.5);
+    padding-left: 20px;
+}
+.plus{
+    padding: 5px;
+    margin: 7vh 0 10vh;
+    display: block;
+}
+
+#inputFileBox div:nth-of-type(3){
+    margin-bottom: 10vh;
+}
+
+
+/*Header User*/
+.headerUser{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    align-items: center;
+}
+
+@media (min-width:768px) { 
+    .h1{
+        font-size: 2em;
+    }
+    .h3{
+        font-size: 1.6em;
+    }
+    .header img:nth-of-type(1){
+    margin-left: 40px;
+    transform: translateY(30%);
+    height: 100%;
+    }
+    
+    .weiterButton{
+        height: 10vh;
+    }
+    .weiterButton :hover{
+     font-weight: bold;
+     font-size: 1.6em;
+     transition: font-size ease-in .3s;
+     background: 251,129,139,1;
+    }
+    .dashboardField{
+    min-height: 70vh;
+    background-size: 100%;
+    background-position: center bottom -55vw;
+    padding-bottom: 22vh;
+    }
+
+    .footerWaves img{
+        height: 30%;
+
+    }
+    
+    .hoverdRed:hover{
+        color: #FB818B;
+        transition: color ease-in .3s;
+        font-weight: bold;
+    }
+    /* Main Scroll Down*/
+    .mainScrollDown{
+        display: grid;
+        grid-template-rows: 20vh auto;
+    }
+    .mainScrollDown h3{
+        margin-top: 30px;
+    }
+
+
+    .inputTextField{
+    width: 97%;
+    padding: 20px 0 20px 3%;
+    border: none;
+    border-radius: 2%;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 18px rgba(144, 164, 183, 0.22);
+    border-radius: 4px;
+    }
+    .inputTextField::placeholder{
+        padding-left: 0;
+    }
+
+    /*HOVER PROFILE*/
+    #showUserProfile ul a:hover{
+        color: #FB818B;
+    }
+}
+
